@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+/** Body**/
+.sheet .container .grid .coupon_body{
+    background: #444444;
+}
+
+/** 1000฿ **/
+.container .grid  .coupon_body .content h2{
+    color: #f46e31;
+}
+
+/**  Name manager **/
+.container .grid .coupon_body .content .coupon_bottom{
+    color: #fff;
+}
+
+
+/** Line **/
+.container .grid  .coupon_body .content hr{
+    border: 2px solid #fff;
+}
+
+/** Background Right **/
+.container .grid .coupon_body .content2{
+    background: #f46e31;
+}
+
+/** Number **/
+.container .grid .coupon_body .content2 h4{
+    color: #fff;
+}
+
+/** Date **/
+.container .grid .coupon_body .content2 .date{
+    color: #fff;
+}
+
+@media print {
+    body.A4{
+        width: 100%;
+    }
+}

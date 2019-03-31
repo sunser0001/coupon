@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 17.78cm;
+    height: 25.4cm;
+    border: 0.1px solid #000;
+    margin-left: 1.6cm;
+    margin-top: 2cm;
+
+}
+
+.container .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .grid .coupon_body{
+    margin-top:-0.1px;
+    width: 8.9cm;
+    height: 5.08cm;
+    border: 0.1px solid #000;
+    border-left: 0;   
+    position: relative;
+    display: flex;
+}
+.container .grid  .coupon_body .content{
+    width: 255px;
+    height: 192px;
+}
+
+.container .grid  .coupon_body .content h2{
+    margin-left: 0.5cm;
+    margin-top: -5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 58pt;
+}
+
+
+
+.container .grid .coupon_body .content .coupon_bottom{
+        font-family: 'Oswald', sans-serif;
+}
+
+.container .grid  .coupon_body .content .coupon_bottom .name{
+    font-size: 18pt;
+    margin-left: 0.75cm;
+    margin-top: 10px;
+}
+
+.container .grid  .coupon_body .content .coupon_bottom .tag{
+    width: 6.3cm;
+    font-size: 15pt;
+    letter-spacing: 4px;
+    line-height: 80%;
+    text-align: center;
+}
+
+.container .grid .coupon_body .content2{
+    width: 81.47px;
+    text-align: center; 
+
+}
+.container .grid .coupon_body .content2 img{
+    width: 81.47px;
+    height: auto;
+}
+  
+.container .grid .coupon_body .content2 h4{    font-family: 'Oswald', sans-serif;
+    font-size: 25pt;
+    text-align: center;  
+
+}
+
+.container .grid .coupon_body .content2 .date{
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13pt;
+}
+
+
+.container .grid  .coupon_body .content hr{
+    margin: 3px 10px 3px 10px;
+}
